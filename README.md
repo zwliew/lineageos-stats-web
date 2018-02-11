@@ -1,21 +1,20 @@
-# preact material app
+# lineageos-stats-web
 
-Super performant `Material` app for preact world using [preact-material-components](https://github.com/prateekbh/preact-material-components)
+Preact app for LineageOS stats.
 
-## CLI Commands
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# test the production build locally
-npm run serve
+## Installing the app
+```bash
+git clone https://github.com/zwliew/lineageos-stats-web
+cd lineageos-stats-web
+npm i
 ```
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+## Running the app
+
+```bash
+# Development
+npm run dev
+
+# Production
+npm run serve
+```
